@@ -26,6 +26,7 @@ acl:
   gentoo: [sys-apps/acl]
   nixos: [acl]
   openembedded: [acl@openembedded-core]
+  opensuse: [libacl-devel]
   rhel: [acl, libacl-devel]
   ubuntu: [acl, libacl1-dev]
 acpi:
@@ -163,6 +164,7 @@ asio:
   gentoo: [dev-cpp/asio]
   nixos: [asio]
   openembedded: [asio@meta-oe]
+  opensuse: [asio-devel]
   osx:
     homebrew:
       packages: [asio]
@@ -349,6 +351,7 @@ benchmark:
   gentoo: [dev-cpp/benchmark]
   nixos: [gbenchmark]
   openembedded: [google-benchmark@meta-ros2]
+  opensuse: [benchmark-devel]
   rhel: [google-benchmark-devel]
   ubuntu:
     '*': [libbenchmark-dev]
@@ -591,6 +594,7 @@ clang:
   gentoo: [sys-devel/clang]
   nixos: [clang]
   openembedded: [clang@meta-clang]
+  opensuse: [clang]
   rhel:
     '*': [clang]
     '7': null
@@ -765,6 +769,7 @@ cppcheck:
   gentoo: [dev-util/cppcheck]
   nixos: [cppcheck]
   openembedded: [cppcheck@meta-ros-common]
+  opensuse: [cppcheck]
   osx:
     homebrew:
       packages: [cppcheck]
@@ -1162,6 +1167,7 @@ file:
   gentoo: [sys-apps/file]
   nixos: [file]
   openembedded: [file@openembedded-core]
+  opensuse: [file]
   rhel: [file]
   ubuntu: [file]
 filezilla:
@@ -2751,6 +2757,7 @@ libatomic:
   gentoo: [sys-devel/gcc]
   nixos: []
   openembedded: [gcc-runtime@openembedded-core]
+  opensuse: [libatomic1]
   osx:
     homebrew:
       packages: [libatomic_ops]
@@ -3473,7 +3480,7 @@ libconsole-bridge-dev:
   gentoo: [dev-libs/console_bridge]
   nixos: [console-bridge]
   openembedded: [console-bridge@meta-ros-common]
-  opensuse: [libconsole_bridge0]
+  opensuse: [libconsole_bridge-devel]
   rhel: [console-bridge-devel]
   slackware: [console_bridge]
   ubuntu: [libconsole-bridge-dev]
@@ -3986,6 +3993,7 @@ libfreetype6:
   gentoo: [media-libs/freetype]
   nixos: [freetype]
   openembedded: [freetype@openembedded-core]
+  opensuse: [libfreetype6]
   rhel: [freetype]
   ubuntu: [libfreetype6]
 libfreetype6-dev:
@@ -4788,6 +4796,7 @@ liblttng-ust-dev:
   gentoo: [dev-util/lttng-ust]
   nixos: [lttng-ust]
   openembedded: [lttng-ust@openembedded-core]
+  opensuse: [lttng-ust-devel]
   rhel: [lttng-ust-devel]
   ubuntu: [liblttng-ust-dev]
 liblz4:
@@ -4798,7 +4807,7 @@ liblz4:
   nixos: [lz4]
   openembedded: [lz4@openembedded-core]
   opensuse:
-    '*': [liblz4]
+    '*': [liblz4-1]
     '15.2': null
   rhel: [lz4-libs]
   ubuntu: [liblz4-1]
@@ -5014,6 +5023,7 @@ libncurses-dev:
   macports: [ncurses]
   nixos: [ncurses]
   openembedded: [ncurses@openembedded-core]
+  opensuse: [ncurses-devel]
   rhel: [ncurses-devel]
   ubuntu: [libncurses-dev]
 libneon27-gnutls-dev:
@@ -5351,6 +5361,7 @@ liborocos-kdl-dev:
   gentoo: [sci-libs/orocos_kdl]
   nixos: [orocos-kdl]
   openembedded: [orocos-kdl@meta-ros1-noetic]
+  opensuse: [orocos-kdl-devel]
   rhel:
     '*': [orocos-kdl-devel]
     '7': null
@@ -6280,7 +6291,7 @@ libqt5-svg:
   gentoo: ['dev-qt/qtsvg:5']
   nixos: [qt5.qtsvg]
   openembedded: [qtsvg@meta-qt5]
-  opensuse: [libqt5-qtsvg]
+  opensuse: [libqt5-qtsvg-devel]
   rhel: [qt5-qtsvg]
   ubuntu: [libqt5svg5]
 libqt5-svg-dev:
@@ -6724,6 +6735,7 @@ libsqlite3-dev:
   gentoo: ['dev-db/sqlite:3']
   nixos: [sqlite]
   openembedded: [sqlite3@openembedded-core]
+  opensuse: [sqlite3-devel]
   rhel: [libsq3-devel]
   ubuntu: [libsqlite3-dev]
 libsrtp0-dev:
@@ -7286,7 +7298,7 @@ libxaw:
   macports: [xorg-libXaw]
   nixos: [xorg.libXaw]
   openembedded: [libxaw@meta-oe]
-  opensuse: [xorg-x11-devel]
+  opensuse: [libXaw-devel]
   rhel: [libXaw-devel]
   ubuntu: [libxaw7-dev]
 libxcb-randr0-dev:
@@ -7382,6 +7394,7 @@ libxml2-utils:
   gentoo: [dev-libs/libxml2]
   nixos: [libxml2]
   openembedded: [libxml2@openembedded-core]
+  opensuse: [libxml2]
   rhel: [libxml2]
   ubuntu: [libxml2-utils]
 libxmlrpc-c++:
@@ -7412,6 +7425,7 @@ libxrandr:
   macports: [xorg-libXrandr]
   nixos: [xorg.libXrandr]
   openembedded: [libxrandr@openembedded-core]
+  opensuse: [libXrandr-devel]
   rhel: [libXrandr-devel]
   ubuntu: [libxrandr-dev]
 libxslt:
@@ -7453,7 +7467,7 @@ libxxf86vm:
   macports: [xorg-libXxf86vm]
   nixos: [xorg.libXxf86vm]
   openembedded: [libxxf86vm@openembedded-core]
-  opensuse: [xorg-x11-devel]
+  opensuse: [libXxf86vm-devel]
   rhel: [libXxf86vm-devel]
   ubuntu: [libxxf86vm-dev]
 libyaml:
@@ -7532,6 +7546,7 @@ libzstd-dev:
   gentoo: [app-arch/zstd]
   nixos: [zstd]
   openembedded: [zstd@openembedded-core]
+  opensuse: [libzstd-devel]
   rhel: [libzstd-devel]
   ubuntu:
     '*': [libzstd-dev]
@@ -7675,6 +7690,7 @@ lttng-tools:
   gentoo: [dev-util/lttng-tools]
   nixos: [lttng-tools]
   openembedded: [lttng-tools@openembedded-core]
+  opensuse: [lttng-tools]
   rhel: [lttng-tools]
   ubuntu: [lttng-tools]
 lua-dev:
@@ -8043,6 +8059,7 @@ nlohmann-json-dev:
   gentoo: [dev-cpp/nlohmann_json]
   nixos: [nlohmann_json]
   openembedded: [nlohmann-json@meta-oe]
+  opensuse: [nlohmann_json-devel]
   rhel: [json-devel]
   ubuntu:
     '*': [nlohmann-json3-dev]
@@ -8579,6 +8596,7 @@ pybind11-dev:
   gentoo: [dev-python/pybind11]
   nixos: [python3Packages.pybind11]
   openembedded: [python3-pybind11@meta-python]
+  opensuse: [python3-pybind11-devel]
   rhel:
     '*': [pybind11-devel]
     '7': null
@@ -9277,6 +9295,7 @@ rti-connext-dds-7.3.0:
     '*': [rti-connext-dds-7.3.0-ros]
     bullseye: null
   nixos: []
+  opensuse: null
   ubuntu:
     '*': [rti-connext-dds-7.3.0-ros]
     focal: null
@@ -9562,6 +9581,7 @@ spdlog:
   gentoo: [dev-libs/spdlog]
   nixos: [spdlog]
   openembedded: [spdlog@meta-oe]
+  opensuse: [spdlog-devel]
   rhel: [spdlog-devel]
   ubuntu: [libspdlog-dev]
 speech-dispatcher:
@@ -10045,6 +10065,7 @@ uncrustify:
   gentoo: [dev-util/uncrustify]
   nixos: [uncrustify]
   openembedded: [uncrustify@meta-ros-common]
+  opensuse: [uncrustify]
   osx:
     homebrew:
       packages: [uncrustify]
@@ -10445,6 +10466,7 @@ yaml:
   macports: [libyaml]
   nixos: [libyaml]
   openembedded: [libyaml@openembedded-core]
+  opensuse: [libyaml-devel]
   rhel: [libyaml-devel]
   ubuntu: [libyaml-dev]
 yaml-cpp:
